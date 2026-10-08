@@ -4,7 +4,7 @@
 
 Cat Meme Reactor watches your webcam, reads your facial expression in real time, and responds with the cat meme that matches your mood. Smile and you get a happy cat. Frown and the cat judges you.
 
-**[Live demo](https://YOUR-USERNAME.github.io/cat-meme-reactor)** · Allow camera access when prompted.
+**[Live demo](https://Sia-commits.github.io/cat-meme-reactor)** · Allow camera access when prompted.
 
 <!-- Add a screenshot or GIF here: -->
 <!-- ![Demo](demo.gif) -->
