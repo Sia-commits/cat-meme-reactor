@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Meme Reactor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Space+Grotesk:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="stage">
+
+    <header class="title">
+      <h1>Cat Meme Reactor</h1>
+      <p class="tagline">Your face, translated into cat.</p>
+    </header>
+
+    <div class="rig">
+
+      <div class="cam-frame">
+        <div class="live-badge"><span class="dot"></span>LIVE</div>
+        <video id="video" autoplay muted playsinline></video>
+        <div class="reading">
+          <span class="reading-label">reading</span>
+          <span id="expressionLabel" class="reading-value">–</span>
+        </div>
+      </div>
+
+      <svg class="connector" viewBox="0 0 160 40" preserveAspectRatio="none">
+        <path d="M4 20 H140" stroke="#171717" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round" fill="none"/>
+        <path d="M130 8 L150 20 L130 32" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      </svg>
+
+      <div class="meme-frame">
+        <div class="pin"></div>
+        <img id="memeImage" src="default.jpg" alt="cat meme" />
+        <p id="memeCaption" class="caption">Waiting for your face…</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
